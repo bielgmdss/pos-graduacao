@@ -74,10 +74,37 @@ s8 = s3.issubset(s1)
 print(s8)
 
 
+# Verificando se é um superconjunto
+
+s9 = s1.issubset(s2)
+print(s9)
+
+s10 = s1.issubset(s3)
+print(s10)
+
+# Removendo e discartando - remove() e discard()
+
+print(conj1)
+
+conj1.remove(3)
+print(conj1)
+
+conj1.discard(6)
+print(conj1)
 
 
+# Funções aplicaveis
 
+print(len(s1))
+print(max(s1))
+print(min(s1))
+print(sum(s1))
 
+# Conversão de uma lista em um conjunto
+
+lista = [1, 2, 3, 4, 5, 4, 6]
+conj_lista = set(lista)
+print(conj_lista)
 
 
 
