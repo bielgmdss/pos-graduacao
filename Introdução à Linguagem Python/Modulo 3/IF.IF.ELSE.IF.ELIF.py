@@ -43,5 +43,42 @@ else:
         print("Seu peso está acima do ideal. Seu IMC = {}.".format(imc))
 
 
+if imc <17:
+    print("Seu peso está muito abaixo do ideal. Seu IMC = {}.".format(imc))
+else:
+    if imc >= 17 and imc<18.5:
+        print("Seu peso está abaixo do ideal. Seu IMC = {}.".format(imc))
+    else: 
+        if imc >= 18.5 and imc<25:
+            print("Seu peso está dentro da faixa ideal. Seu IMC = {}.".format(imc))
+        else: 
+            if imc >= 25 and imc<30:
+                print("Seu peso está acima do ideal. Seu IMC = {}.".format(imc))
+            else: 
+                if imc >= 30 and imc<35:
+                    print("Seu peso está acima do ideal (Obesidade I). Seu IMC = {}.".format(imc))    
+                else: 
+                    if imc >= 35 and imc<40:
+                        print("Seu peso está acima do ideal (Obesidade 2). Seu IMC = {}.".format(imc)) 
+                    else:
+                        print("Seu peso está acima do ideal (Obesidade 3). Seu IMC = {}.".format(imc)) 
+           
+
+# Usando elif aninhados
+
+if imc <17:
+    print("Seu peso está muito abaixo do ideal. Seu IMC = {}.".format(imc))
+elif imc >= 17 and imc<18.5:
+    print("Seu peso está abaixo do ideal. Seu IMC = {}.".format(imc))
+elif imc >= 18.5 and imc<25:
+    print("Seu peso está dentro da faixa ideal. Seu IMC = {}.".format(imc))
+elif imc >= 25 and imc<30:
+    print("Seu peso está acima do ideal. Seu IMC = {}.".format(imc))
+elif imc >= 30 and imc<35:
+    print("Seu peso está acima do ideal (Obesidade I). Seu IMC = {}.".format(imc))    
+elif imc >= 35 and imc<40:
+    print("Seu peso está acima do ideal (Obesidade 2). Seu IMC = {}.".format(imc)) 
+else:    
+    print("Seu peso está acima do ideal (Obesidade 3). Seu IMC = {}.".format(imc))
 
 
