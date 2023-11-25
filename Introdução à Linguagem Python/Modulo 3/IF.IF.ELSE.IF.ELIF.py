@@ -82,3 +82,17 @@ else:
     print("Seu peso está acima do ideal (Obesidade 3). Seu IMC = {}.".format(imc))
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
